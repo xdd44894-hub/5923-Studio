@@ -674,3 +674,12 @@ footer {
   }
 
 }
+.single-game {
+  grid-template-columns: minmax(0, 760px);
+}
+
+@media (max-width: 800px) {
+  .single-game {
+    grid-template-columns: 1fr;
+  }
+}
